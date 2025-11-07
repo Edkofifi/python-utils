@@ -15,11 +15,10 @@ def merge_pdfs(pdf_list, output_filename):
 
     merger.write(output_filename)
     merger.close()
-    print(f"\n✅ Merged PDF created successfully: {output_filename}")
+    print(f"Merged PDF created successfully: {output_filename}")
 
 
-if __name__ == "__main__":
-    # Example: specify PDFs in your desired order
+if __name__ == "__main__": 
     pdf_files = [
         "TRANSCRIPT_BSC_COMPUTER_SCI.pdf",
         "Certificate_Computer_Science.pdf",
