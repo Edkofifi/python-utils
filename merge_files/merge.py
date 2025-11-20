@@ -20,9 +20,8 @@ def merge_pdfs(pdf_list, output_filename):
 
 if __name__ == "__main__": 
     pdf_files = [
-        "TRANSCRIPT_BSC_COMPUTER_SCI.pdf",
-        "Certificate_Computer_Science.pdf",
-        "Language Proficiency.pdf",
+        "Transcript_Diploma.pdf",
+        "Certificate_Education.pdf",
     ]
 
     output_file = "merged_document.pdf"
